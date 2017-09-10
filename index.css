@@ -1,0 +1,30 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+/*Header and Nav*/
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 50px;
+}
+
+.leftNav{
+
+}
+
+.rightNav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  width: 300px;
+}
+
+.rightNav li{
+  list-style-type: none;
+}
