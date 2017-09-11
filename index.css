@@ -1,16 +1,19 @@
 body{
   padding: 0px;
   margin: 0px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*Header and Nav*/
-.navbar{
+.navbar1{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: black;
   color: white;
+  height: 5vh;
+  width: 100vw;
 }
 
 .leftNav{
@@ -33,11 +36,58 @@ body{
 
 .header{
   background-size: 100% 100%;
-  background-image: url('header1.png');
+  background-image: url('header.jpeg');
   height: 100vh;
+  width: 100vw;
+}
+
+.headerOpaque{
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  width: 100vw;
 }
 
 .headerText{
   position: absolute;
-  color: white
+  color: white;
+  left: 155px;
+  top: 180px;
+  width: 600px;
+}
+
+.headerText h1{
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.headerText h4{
+  font-size: 20px;
+}
+
+.headerButtons{
+  position: absolute;
+  top: 475px;
+  left: 175px;
+}
+
+.headerButtons a{
+  margin-right: 10px;
+}
+
+/*About*/
+
+.about{
+  margin: 30px 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+img{
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  margin-right: 20px;
 }
