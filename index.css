@@ -37,7 +37,7 @@ body{
 .header{
   background-size: 100% 100%;
   background-image: url('header.jpeg');
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
 }
 
@@ -45,7 +45,7 @@ body{
   position: absolute;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.3);
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
 }
 
@@ -84,6 +84,7 @@ body{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  height: 600px;
 }
 img{
   border-radius: 50%;
