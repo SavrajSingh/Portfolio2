@@ -5,5 +5,11 @@ $(document).ready(function (){
           scrollTop: $(".about").offset().top
       }, 1000);
     });
-    
+
+    $("#work").click(function (){
+        $('html, body').animate({
+            scrollTop: $(".portfolio").offset().top
+        }, 1000);
+      });
+
 });
