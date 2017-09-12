@@ -30,7 +30,7 @@ body{
   margin-right: 50px;
 }
 
-.rightNav li{
+li{
   list-style-type: none;
 }
 
@@ -89,7 +89,7 @@ body{
 /*About*/
 
 .about{
-  margin: 30px 300px;
+  margin: 30px 15vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -110,14 +110,14 @@ body{
   justify-content: center;
 }
 .resume object{
-  width: 60vw;
+  width: 65vw;
   height: 80vh;
 }
 
 /*Portfolio*/
 
 .flexImage{
-  margin: 30px 300px;
+  margin: 30px 16vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -128,4 +128,13 @@ body{
   height: 400px;
   width: 500px;
   margin: 0px 30px;
+}
+
+/*Contact*/
+i{
+  margin-right: 30px;
+}
+
+.listing ul{
+  margin-left: 10px;
 }
